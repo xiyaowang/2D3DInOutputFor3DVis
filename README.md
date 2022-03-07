@@ -2,10 +2,18 @@
 This repository contains program code used in the study of the paper "" submitted to Elsevier's International Journal of Human Computer Studies.
 This project was coded with Unity and includes four parts: input with a normal PC, input with the Google Tango Tablet, output with a normal PC, and output with the Microsoft HoloLens version 1. 
 
+For each program, sost relevant files are under the Assets folder:
+- Materials: textures for object rendering (such as the flow data simulation).
+- Model: teapot model.
+- Scene: Unity scene.
+- Scripts: all scripts.
+   -dd
+- Shaders: shaders to render the scene, including slice-based volume rendering for the flow data visualization and simple mesh renderer for the teapot.
+
 ## S23_Input_PC 
 This folder contains the Unity project running on a normal PC. This program captures and process the input from mouse/keyboard and space mouse. 
 
-This project was coded under Unity 2018.4.3.f1 with C Sharp. For capturng and processing the mouse and keyboard input, no additional resources was required. For the space mouse input, it is required to have  the SpaceNavigator Driver [(https://assetstore.unity.com/packages/tools/spacenavigator-driver-9774)](https://assetstore.unity.com/packages/tools/spacenavigator-driver-9774).
+This project was coded under Unity 2018.4.3.f1 with C Sharp. For capturng and processing the mouse and keyboard input, no additional resources was required. For the space mouse input, it is required to have the SpaceNavigator Driver [(https://assetstore.unity.com/packages/tools/spacenavigator-driver-9774)](https://assetstore.unity.com/packages/tools/spacenavigator-driver-9774). Currently this driver is included in the project.
 
 This program also logs users' manipulation. If this program is running within Unity, logs will be saved under the related subfolder of AppData of Unity. An example location is C:\Users\USER_NAME\AppData\...
 
