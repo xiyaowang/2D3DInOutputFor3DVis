@@ -6,8 +6,11 @@ For each program, sost relevant files are under the Assets folder:
 - Materials: textures for object rendering (such as the flow data simulation).
 - Model: teapot model.
 - Scene: Unity scene.
-- Scripts: all scripts.
-   -dd
+- Scripts: all scripts. Important ones include:
+   -- Global Manager is usually the start file that controls everything globally.
+   -- Network folder contains UDP-related scripts for communication with other devices.
+   -- Tasks folder include object scripts of each task and related interaction.
+   -- Setting script is for the study setup.
 - Shaders: shaders to render the scene, including slice-based volume rendering for the flow data visualization and simple mesh renderer for the teapot.
 
 ## S23_Input_PC 
